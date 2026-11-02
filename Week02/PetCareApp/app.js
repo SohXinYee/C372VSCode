@@ -17,6 +17,7 @@ app.use(session({
   saveUninitialized: true
 }));
 
+
 app.use(require('./routes/authRoutes'));
 app.use(require('./routes/pageRoutes'));
 app.use(require('./routes/adminRoutes'));
